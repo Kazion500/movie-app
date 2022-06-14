@@ -1,0 +1,23 @@
+// Vitest Snapshot v1
+
+exports[`#footer > should render a footer 1`] = `
+<footer
+  className="text-center bg-primary-100 mt-auto text-white p-5"
+>
+  Developed with 
+  <span
+    className="text-secondary-100"
+  >
+    ❤
+  </span>
+   by
+   
+  <a
+    className="text-secondary-100"
+    href="https://www.patrickkabwe.com"
+    target="_blank"
+  >
+    Patrick Kabwe
+  </a>
+</footer>
+`;

@@ -1,0 +1,10 @@
+// Vitest Snapshot v1
+
+exports[`#button > should render a button 1`] = `
+<button
+  className="px-5 py-3 bg-secondary-100 text-white rounded-md block disabled:cursor-not-allowed disabled:bg-primary-100"
+  onClick={[Function]}
+>
+  button
+</button>
+`;

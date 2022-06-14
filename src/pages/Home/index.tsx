@@ -21,7 +21,8 @@ const Home = () => {
   const handleLike = (movie: MovieInterface) => {
     let newLikes: MovieInterface[] = [];
     if (likedMovies !== null && likedMovies?.length) {
-      if (likedMovies.find((like) => like.id === movie.id)) {
+      const likedMovieExists = likedMovies.find((item) => item.id === movie.id);
+      if (likedMovieExists) {
         newLikes = likedMovies.filter((like) => like.id !== movie.id);
         save(LIKE_KEY, newLikes);
       } else {
